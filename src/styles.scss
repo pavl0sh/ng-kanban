@@ -51,7 +51,7 @@ $ng-kanban-accent: mat-palette($mat-pink, A200, A100, A400);
 $ng-kanban-warn: mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$ng-kanban-theme: mat-light-theme($ng-kanban-primary, $ng-kanban-accent, $ng-kanban-warn);
+$ng-kanban-theme: mat-dark-theme($ng-kanban-primary, $ng-kanban-accent, $ng-kanban-warn);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
